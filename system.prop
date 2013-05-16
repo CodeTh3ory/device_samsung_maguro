@@ -8,15 +8,3 @@ telephony.lteOnCdmaDevice=0
 
 # Ril sends only one RIL_UNSOL_CALL_RING, so set call_ring.multiple to false
 ro.telephony.call_ring.multiple=0
-
-#Dalvik
-dalvik.vm.heapsize=512m
-dalvik.vm.heapmaxfree=16m
-dalvik.vm.heapminfree=512k
-dalvik.vm.heapstartsize=32m
-dalvik.vm.heapgrowthlimit=256m
-dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.execution-mode=int:jit
-dalvik.vm.lockprof.threshold=850
-dalvik.vm.verify-bytecode=false
-dalvik.vm.dexopt-flags=m=y,v=n,o=v
